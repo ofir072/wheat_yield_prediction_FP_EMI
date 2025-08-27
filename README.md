@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements a comprehensive machine learning pipeline for predicting wheat yield based on meteorological data, agricultural practices, and field characteristics. The system uses multiple advanced algorithms including gradient boosting, neural networks, and ensemble methods to provide accurate yield predictions.
+This project implements a comprehensive machine learning pipeline for predicting crops yield based on meteorological data, agricultural practices, and field characteristics. The system uses multiple advanced algorithms including gradient boosting, neural networks, and ensemble methods to provide accurate yield predictions.
 
 ## Project Features
 
@@ -258,16 +258,6 @@ results_dir = r'/path/to/results'
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- **Primary Developer**: [Your Name]
-- **Data Sources**: Israel Meteorological Service (IMS)
-- **Agricultural Data**: Field measurements and surveys
 
 ## Acknowledgments
 
