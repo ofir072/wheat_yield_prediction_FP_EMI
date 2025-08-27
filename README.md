@@ -1,10 +1,10 @@
 # Wheat Yield Prediction Project
 
-## �� Project Overview
+## Project Overview
 
 This project implements a comprehensive machine learning pipeline for predicting wheat yield based on meteorological data, agricultural practices, and field characteristics. The system uses multiple advanced algorithms including gradient boosting, neural networks, and ensemble methods to provide accurate yield predictions.
 
-## �� Project Features
+## Project Features
 
 - **Multi-Model Approach**: 10 different machine learning models (5 classification, 5 regression)
 - **Advanced Feature Engineering**: Weather data integration, one-hot encoding, min-max scaling
@@ -12,7 +12,7 @@ This project implements a comprehensive machine learning pipeline for predicting
 - **Real-time Data Integration**: IMS (Israel Meteorological Service) API integration
 - **Robust Preprocessing**: Missing data handling, outlier detection, data validation
 
-## ��️ Project Structure
+## Project Structure
 
 ```
 wheat_yield_prediction_FP_EMI/
@@ -55,7 +55,7 @@ wheat_yield_prediction_FP_EMI/
 - **SVR**: Support Vector Regression with multiple kernels
 - **MLPRegressor**: Multi-layer perceptron neural network
 
-## �� Model Parameters
+## Model Parameters
 
 ### Tree-Based Models
 ```python
@@ -142,7 +142,7 @@ mkdir -p data/results
 - **Scaling**: Min-max normalization for numerical features
 - **Missing Data**: Advanced handling with NaN conversion
 
-## �� Usage
+## Usage
 
 ### 1. Data Preparation
 ```python
@@ -225,7 +225,7 @@ python pys/models/scores/feature_importance_analysis.py
 - **Prediction vs Actual**: Scatter plots of predictions
 - **Class Distribution**: For classification tasks
 
-## �� Configuration
+## Configuration
 
 ### Model Parameters
 All model parameters are configurable through the respective configuration files in each model directory.
@@ -269,7 +269,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Data Sources**: Israel Meteorological Service (IMS)
 - **Agricultural Data**: Field measurements and surveys
 
-## �� Acknowledgments
+## Acknowledgments
 
 - Israel Meteorological Service for weather data
 - Agricultural experts for domain knowledge
@@ -281,7 +281,7 @@ For questions or support, please contact:
 - Email: tuphr961@gmail.com
 - Project Link: [https://github.com/yourusername/wheat_yield_prediction_FP_EMI]
 
-## �� Version History
+## Version History
 
 - **v1.0**: Initial implementation with basic models
 - **v2.0**: Added advanced feature engineering and IMS integration
